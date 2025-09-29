@@ -38,5 +38,5 @@ A **simple blog content management system** built with **Laravel** and **Vue.js*
 ### 🔁 Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/myblog.cms.git
-cd myblog.cms
+git clone https://github.com/minrandom/myblogai-cms.git
+cd myblogai-cms
