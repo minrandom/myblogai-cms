@@ -1,0 +1,63 @@
+# Laravel & PHP
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*       # ignore all environment variants
+Homestead.yaml
+Homestead.json
+/.idea
+/.vscode
+/.phpunit.result.cache
+.phpunit.result.cache
+.php_cs.cache
+.php-cs-fixer.cache
+composer.lock
+yarn.lock
+npm-debug.log
+.DS_Store
+Thumbs.db
+
+# Laravel Storage
+/storage/app/public
+/storage/debugbar
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+
+# Laravel Cache/Config Files
+bootstrap/cache/*.php
+
+# Laravel Telescope
+storage/telescope
+
+# Laravel Horizon
+horizon.log
+
+# OS / IDE / Misc
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Mac / Linux / Windows system files
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+*.idea
+*.vscode
+Thumbs.db
+
+# Node / Vite / Vue Frontend
+node_modules/
+dist/
+public/hot
+public/build
+public/mix-manifest.json
+resources/js/.vite
+resources/js/.vitepress
+vite.config.js
+vite.config.ts
